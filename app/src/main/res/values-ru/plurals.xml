@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="clicks">
+        <item quantity="one">%d жмяк</item>
+        <item quantity="few">%d жмяка</item>
+        <item quantity="many">%d жмяков</item>
+        <item quantity="other">%d жмяков</item>
+    </plurals>
+</resources>

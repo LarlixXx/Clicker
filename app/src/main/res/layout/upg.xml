@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="410dp"
+    android:layout_height="732dp"
+    android:orientation="vertical"
+    android:background="@color/greyplus">
+
+    <LinearLayout
+        android:id="@+id/upg1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/but1"
+            android:layout_margin="10dp"
+            android:text="ЖМЯКС(25)"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></Button>
+        <TextView
+            android:id="@+id/dop1"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="+1 жмяк за клик"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/upg2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/but2"
+            android:layout_margin="10dp"
+            android:text="супер жмяк(100)"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></Button>
+        <TextView
+            android:id="@+id/dop2"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="+3 жмяк за клик"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/upg3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/but3"
+            android:layout_margin="10dp"
+            android:text="мега жмяк(500)"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></Button>
+        <TextView
+            android:id="@+id/dop3"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="+10 жмяк за клик"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/upg4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/but4"
+            android:layout_margin="10dp"
+            android:text="ультра жмяк(1500)"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></Button>
+        <TextView
+            android:id="@+id/dop4"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="+30 жмяк за клик"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/upg5"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/but5"
+            android:layout_margin="10dp"
+            android:text="пента жмяк(2500)"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></Button>
+        <TextView
+            android:id="@+id/dop5"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="+50 жмяк за клик"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/upg6"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/but6"
+            android:layout_margin="10dp"
+            android:text="жмякусинус(4000)"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></Button>
+        <TextView
+            android:id="@+id/dop6"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="+150 жмяк за клик"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/upg7"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/but7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="королевский жмяк (20000)"
+            android:textSize="12sp"></Button>
+        <TextView
+            android:id="@+id/dop7"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="+500 жмяк за клик"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/zmakup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_weight="1"></TextView>
+        <Button
+            android:id="@+id/back"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Вернуться жмякать"
+            android:textSize="25dp"></Button>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

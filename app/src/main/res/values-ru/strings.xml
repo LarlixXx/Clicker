@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Clicker</string>
+    <string name="clicks_on_balance">%s на счету</string>
+    <string name="clicks_for_click">%s за жмяк</string>
+    <string name="text_upg">Улучшения</string>
+    <string name="text_achiv">Достижения</string>
+    <string name="textNumber">наш телефон</string>
+    <string name="textLocation">Наш офис</string>
+    <string name="textVkLink">Мой вк</string>
+</resources>

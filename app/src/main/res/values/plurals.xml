@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="clicks">
+        <item quantity="one">%d click</item>
+        <item quantity="few">%d clicks</item>
+        <item quantity="many">%d clicks</item>
+        <item quantity="two">%d clicks</item>
+        <item quantity="zero">%d clicks</item>
+        <item quantity="other">%d clicks</item>
+    </plurals>
+</resources>
