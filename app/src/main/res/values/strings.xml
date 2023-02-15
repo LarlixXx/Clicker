@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name" translatable="false">Clicker</string>
-    <string name="clicks_on_balance">%s на счету</string>
-    <string name="clicks_for_click">%s за жмяк</string>
+    <string name="clicks_on_balance">%s on balance</string>
+    <string name="clicks_for_click">%s per click</string>
     <string name="text_upg">Upgrades</string>
     <string name="text_achiv">Achievements</string>
     <string name="textNumber">My phone number</string>

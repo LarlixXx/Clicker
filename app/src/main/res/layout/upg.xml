@@ -28,6 +28,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>
+
     <LinearLayout
         android:id="@+id/upg2_layout"
         android:layout_width="match_parent"
@@ -51,6 +52,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>
+
     <LinearLayout
         android:id="@+id/upg3_layout"
         android:layout_width="match_parent"
@@ -74,6 +76,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>
+
     <LinearLayout
         android:id="@+id/upg4_layout"
         android:layout_width="match_parent"
@@ -97,6 +100,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>
+
     <LinearLayout
         android:id="@+id/upg5_layout"
         android:layout_width="match_parent"
@@ -120,6 +124,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>
+
     <LinearLayout
         android:id="@+id/upg6_layout"
         android:layout_width="match_parent"
@@ -143,6 +148,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>
+
     <LinearLayout
         android:id="@+id/upg7_layout"
         android:layout_width="match_parent"
@@ -167,6 +173,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -180,6 +187,7 @@
             android:gravity="center"
             android:textSize="25dp"
             android:layout_weight="1" />
+
         <Button
             android:id="@+id/back_to_main_button"
             android:layout_weight="1"

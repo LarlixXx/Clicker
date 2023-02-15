@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         var countClicks = 0
         var ckicksChange = 1
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -30,8 +31,6 @@ class MainActivity : AppCompatActivity() {
         textCountClicks = findViewById(R.id.clicks_count_main_text)
         val toUpgradeButton = findViewById<Button>(R.id.button_upgrade)
         textClicksForClick = findViewById(R.id.clicks_for_clicks_text)
-
-
 
         val sharPref = getSharedPreferences("mynum", Activity.MODE_PRIVATE)
         val editor = sharPref.edit()
@@ -48,7 +47,6 @@ class MainActivity : AppCompatActivity() {
             editor.putInt("clicksCountSaved", countClicks)
             editor.putInt("clicksForClickSaved", ckicksChange)
             editor.apply()
-
         }
         toUpgradeButton.setOnClickListener {
             val upgradeIntent = Intent(this, Upgrades::class.java)
@@ -64,6 +62,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(geoIntent)
         }
     }
+
     private fun initLink() {
         val siteButton = findViewById<Button>(R.id.my_vk_button)
         siteButton.setOnClickListener {
