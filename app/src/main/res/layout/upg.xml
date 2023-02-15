@@ -14,18 +14,19 @@
         <Button
             android:id="@+id/but1"
             android:layout_margin="10dp"
-            android:text="ЖМЯКС(25)"
+            android:text="@string/upg_cost1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"></Button>
+            android:layout_weight="1" />
+
         <TextView
             android:id="@+id/dop1"
             android:gravity="center"
             android:layout_margin="10dp"
-            android:text="+1 жмяк за клик"
+            android:text="@string/upg_count_clicks_for_clicks1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"></TextView>
+            android:layout_weight="1" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/upg2"
@@ -36,18 +37,19 @@
         <Button
             android:id="@+id/but2"
             android:layout_margin="10dp"
-            android:text="супер жмяк(100)"
+            android:text="@string/upg_cost2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"></Button>
+            android:layout_weight="1" />
+
         <TextView
             android:id="@+id/dop2"
             android:gravity="center"
             android:layout_margin="10dp"
-            android:text="+3 жмяк за клик"
+            android:text="@string/upg_count_clicks_for_click2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"></TextView>
+            android:layout_weight="1" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/upg3"
@@ -58,18 +60,19 @@
         <Button
             android:id="@+id/but3"
             android:layout_margin="10dp"
-            android:text="мега жмяк(500)"
+            android:text="@string/upg_cost3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"></Button>
+            android:layout_weight="1" />
+
         <TextView
             android:id="@+id/dop3"
             android:gravity="center"
             android:layout_margin="10dp"
-            android:text="+10 жмяк за клик"
+            android:text="@string/upg_count_clicks_for_click3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"></TextView>
+            android:layout_weight="1" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/upg4"
@@ -80,18 +83,19 @@
         <Button
             android:id="@+id/but4"
             android:layout_margin="10dp"
-            android:text="ультра жмяк(1500)"
+            android:text="@string/upg_cost4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"></Button>
+            android:layout_weight="1" />
+
         <TextView
             android:id="@+id/dop4"
             android:gravity="center"
             android:layout_margin="10dp"
-            android:text="+30 жмяк за клик"
+            android:text="@string/upg_count_clicks_for_click4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"></TextView>
+            android:layout_weight="1" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/upg5"
@@ -102,18 +106,19 @@
         <Button
             android:id="@+id/but5"
             android:layout_margin="10dp"
-            android:text="пента жмяк(2500)"
+            android:text="@string/upg_cost5"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"></Button>
+            android:layout_weight="1" />
+
         <TextView
             android:id="@+id/dop5"
             android:gravity="center"
             android:layout_margin="10dp"
-            android:text="+50 жмяк за клик"
+            android:text="@string/upg_count_clicks_for_click5"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"></TextView>
+            android:layout_weight="1" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/upg6"
@@ -124,18 +129,19 @@
         <Button
             android:id="@+id/but6"
             android:layout_margin="10dp"
-            android:text="жмякусинус(4000)"
+            android:text="@string/upg_cost6"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"></Button>
+            android:layout_weight="1" />
+
         <TextView
             android:id="@+id/dop6"
             android:gravity="center"
             android:layout_margin="10dp"
-            android:text="+150 жмяк за клик"
+            android:text="@string/upg_count_clicks_for_click6"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"></TextView>
+            android:layout_weight="1" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/upg7"
@@ -149,21 +155,23 @@
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:text="королевский жмяк (20000)"
-            android:textSize="12sp"></Button>
+            android:text="@string/upg_cost7"
+            android:textSize="12sp" />
+
         <TextView
             android:id="@+id/dop7"
             android:gravity="center"
             android:layout_margin="10dp"
-            android:text="+500 жмяк за клик"
+            android:text="@string/upg_count_clicks_for_click7"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"></TextView>
+            android:layout_weight="1" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <TextView
             android:id="@+id/zmakup"
             android:layout_width="match_parent"
@@ -171,21 +179,13 @@
             android:layout_margin="10dp"
             android:gravity="center"
             android:textSize="25dp"
-            android:layout_weight="1"></TextView>
+            android:layout_weight="1" />
         <Button
             android:id="@+id/back"
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Вернуться жмякать"
-            android:textSize="25dp"></Button>
+            android:text="@string/back_button_text"
+            android:textSize="25dp" />
     </LinearLayout>
-
-
-
-
-
-
-
-
 </LinearLayout>

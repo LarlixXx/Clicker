@@ -1,10 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name" translatable="false">Clicker</string>
-    <string name="clicks_on_balance">%s on balance</string>
+    <string name="clicks_on_balance">%s на счету</string>
     <string name="clicks_for_click">%s за жмяк</string>
-    <string name="text_upg">Улучшения</string>
-    <string name="text_achiv">Достижения</string>
-    <string name="textNumber">наш телефон</string>
-    <string name="textLocation">Наш офис</string>
-    <string name="textVkLink">Мой вк</string>
+    <string name="text_upg">Upgrades</string>
+    <string name="text_achiv">Achievements</string>
+    <string name="textNumber">My phone number</string>
+    <string name="textLocation">My office</string>
+    <string name="textVkLink">My vk link</string>
+    <string name="upg_cost1">clickup(25)</string>
+    <string name="upg_cost2">super ckick(100)</string>
+    <string name="upg_cost3">mega click(500)</string>
+    <string name="upg_cost4">ultra click(1500)</string>
+    <string name="upg_cost5">penta click(2500)</string>
+    <string name="upg_cost6">click smash(4000)</string>
+    <string name="upg_cost7">king click (20000)</string>
+    <string name="back_button_text">Back to click</string>
+    <string name="upg_count_clicks_for_clicks1">+1 ckick per tap</string>
+    <string name="upg_count_clicks_for_click2">+3 ckick per tap</string>
+    <string name="upg_count_clicks_for_click3">+10 ckick per tap</string>
+    <string name="upg_count_clicks_for_click4">+30 ckick per tap</string>
+    <string name="upg_count_clicks_for_click5">+50 ckick per tap</string>
+    <string name="upg_count_clicks_for_click6">+150 ckick per tap</string>
+    <string name="upg_count_clicks_for_click7">+500 ckick per tap</string>
 </resources>

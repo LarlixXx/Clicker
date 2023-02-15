@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Clicker</string>
-    <string name="clicks_on_balance">%s на счету</string>
+    <string name="clicks_on_balance">%s on balance</string>
     <string name="clicks_for_click">%s за жмяк</string>
     <string name="text_upg">Улучшения</string>
     <string name="text_achiv">Достижения</string>
     <string name="textNumber">наш телефон</string>
     <string name="textLocation">Наш офис</string>
     <string name="textVkLink">Мой вк</string>
+    <string name="upg_cost1">ЖМЯКС(25)</string>
+    <string name="upg_cost2">супер жмяк(100)</string>
+    <string name="upg_cost3">мега жмяк(500)</string>
+    <string name="upg_cost4">ультра жмяк(1500)</string>
+    <string name="upg_cost5">пента жмяк(2500)</string>
+    <string name="upg_cost6">жмякусинус(4000)</string>
+    <string name="upg_cost7">королевский жмяк (20000)</string>
+    <string name="back_button_text">Вернуться жмякать</string>
+    <string name="upg_count_clicks_for_clicks1">+1 жмяк за клик</string>
+    <string name="upg_count_clicks_for_click2">+3 жмяк за клик</string>
+    <string name="upg_count_clicks_for_click3">+10 жмяк за клик</string>
+    <string name="upg_count_clicks_for_click4">+30 жмяк за клик</string>
+    <string name="upg_count_clicks_for_click5">+50 жмяк за клик</string>
+    <string name="upg_count_clicks_for_click6">+150 жмяк за клик</string>
+    <string name="upg_count_clicks_for_click7">+500 жмяк за клик</string>
 </resources>

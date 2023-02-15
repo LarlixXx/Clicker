@@ -19,30 +19,44 @@ class Upgrades : AppCompatActivity() {
         val upgr5 = findViewById<Button>(R.id.but5)
         val upgr6 = findViewById<Button>(R.id.but6)
         val upgr7 = findViewById<Button>(R.id.but7)
-        val back = findViewById<Button>(R.id.back)
-        val zmakup = findViewById<TextView>(R.id.zmakup)
+        val returnButton = findViewById<Button>(R.id.back)
+        val clicksCount = findViewById<TextView>(R.id.zmakup)
 
-        zmakup.text = countClicksOnBalance(resources)
+        clicksCount.text = countClicksOnBalance(resources)
 
-        upgr1.setOnClickListener { upgradeFun(25,1)
-            zmakup.text = countClicksOnBalance(resources)}
-        upgr2.setOnClickListener { upgradeFun(100,3)
-            zmakup.text = countClicksOnBalance(resources)}
-        upgr3.setOnClickListener { upgradeFun(500,10)
-            zmakup.text = countClicksOnBalance(resources)}
-        upgr4.setOnClickListener { upgradeFun(1500,30)
-            zmakup.text = countClicksOnBalance(resources)}
-        upgr5.setOnClickListener { upgradeFun(2500,50)
-            zmakup.text = countClicksOnBalance(resources)}
-        upgr6.setOnClickListener { upgradeFun(4000,150)
-            zmakup.text = countClicksOnBalance(resources)}
-        upgr7.setOnClickListener { upgradeFun(20000,500)
-            zmakup.text = countClicksOnBalance(resources)}
+        upgr1.setOnClickListener {
+            upgradeFun(25,1)
+            clicksCount.text = countClicksOnBalance(resources)
+        }
+        upgr2.setOnClickListener {
+            upgradeFun(100,3)
+            clicksCount.text = countClicksOnBalance(resources)
+        }
+        upgr3.setOnClickListener {
+            upgradeFun(500,10)
+            clicksCount.text = countClicksOnBalance(resources)
+        }
+        upgr4.setOnClickListener {
+            upgradeFun(1500,30)
+            clicksCount.text = countClicksOnBalance(resources)
+        }
+        upgr5.setOnClickListener {
+            upgradeFun(2500,50)
+            clicksCount.text = countClicksOnBalance(resources)
+        }
+        upgr6.setOnClickListener {
+            upgradeFun(4000,150)
+            clicksCount.text = countClicksOnBalance(resources)
+        }
+        upgr7.setOnClickListener {
+            upgradeFun(20000,500)
+            clicksCount.text = countClicksOnBalance(resources)
+        }
 
-        back.setOnClickListener { onBackPressed() }
+        returnButton.setOnClickListener{
+            onBackPressed()
+        }
     }
-
-
     companion object {
         fun countClicksOnBalance(resources: Resources): String {
             return resources.getString(

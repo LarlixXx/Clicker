@@ -45,8 +45,8 @@ class MainActivity : AppCompatActivity() {
             textCountClicks.text = Upgrades.countClicksOnBalance(resources)
             textClicksForClick.text = Upgrades.countClicksForClicks(resources)
 
-            editor.putInt("kol_vo", countClicks)
-            editor.putInt("za_raz", ckicksChange)
+            editor.putInt("clicksCountSaved", countClicks)
+            editor.putInt("clicksForClickSaved", ckicksChange)
             editor.apply()
 
         }
@@ -57,23 +57,23 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initGeo() {
-        val geo = findViewById<Button>(R.id.bot2)
-        geo.setOnClickListener {
+        val geolocationButton = findViewById<Button>(R.id.bot2)
+        geolocationButton.setOnClickListener {
             val geoIntent = Intent(Intent.ACTION_VIEW)
             geoIntent.data = Uri.parse("geo:55.754283,37.62002")
             startActivity(geoIntent)
         }
     }
-    private fun initLink(){
-        val site = findViewById<Button>(R.id.bot1)
-        site.setOnClickListener {
+    private fun initLink() {
+        val siteButton = findViewById<Button>(R.id.bot1)
+        siteButton.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://vk.com/iknowallaboutyouu")))
         }
     }
 
     private fun initPhone() {
-        val number = findViewById<Button>(R.id.bot3)
-        number.setOnClickListener {
+        val numberButton = findViewById<Button>(R.id.bot3)
+        numberButton.setOnClickListener {
             val phoneIntent = Intent(Intent.ACTION_DIAL)
             phoneIntent.data = Uri.parse("tel:89872618801")
             startActivity(phoneIntent)

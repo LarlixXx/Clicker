@@ -8,12 +8,12 @@
     <LinearLayout
         android:id="@+id/top"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/b1"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/default_margin"
             android:text="@string/text_upg"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -22,7 +22,7 @@
 
         <Button
             android:id="@+id/b2"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/default_margin"
             android:text="@string/text_achiv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -33,8 +33,9 @@
 
     <LinearLayout
         android:id="@+id/middle"
-        android:layout_width="wrap_content"
-        android:layout_height="576dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
         android:background="@color/grey"
         android:orientation="vertical">
 
@@ -42,7 +43,7 @@
             android:id="@+id/text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/default_margin"
             android:gravity="center"
             android:text="@string/clicks_on_balance"
             android:textSize="38sp" />
@@ -72,36 +73,38 @@
     <LinearLayout
         android:id="@+id/bot"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:orientation="horizontal"
-        android:gravity="bottom">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/bot1"
-            android:text="@string/textVkLink"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="14sp"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:layout_margin="@dimen/default_margin"
+            android:text="@string/textVkLink"
+            android:textSize="@dimen/default_text_size" />
 
         <Button
             android:id="@+id/bot2"
-            android:text="@string/textLocation"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="@dimen/default_margin"
             android:layout_weight="1"
-            android:textSize="14sp"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:text="@string/textLocation"
+            android:textSize="@dimen/default_text_size" />
 
         <Button
             android:id="@+id/bot3"
-            android:text="@string/textNumber"
-            android:textSize="14sp"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="@dimen/default_margin"
             android:layout_weight="1"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:text="@string/textNumber"
+            android:textSize="@dimen/default_text_size" />
 
     </LinearLayout>
 
