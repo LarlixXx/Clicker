@@ -6,13 +6,13 @@
     android:background="@color/greyplus">
 
     <LinearLayout
-        android:id="@+id/top"
+        android:id="@+id/top_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/b1"
+            android:id="@+id/button_upgrade"
             android:layout_margin="@dimen/default_margin"
             android:text="@string/text_upg"
             android:layout_width="match_parent"
@@ -21,7 +21,7 @@
             style="?android:attr/buttonBarButtonStyle" />
 
         <Button
-            android:id="@+id/b2"
+            android:id="@+id/button_achievements"
             android:layout_margin="@dimen/default_margin"
             android:text="@string/text_achiv"
             android:layout_width="match_parent"
@@ -30,9 +30,8 @@
             style="?android:attr/buttonBarButtonStyle" />
 
     </LinearLayout>
-
     <LinearLayout
-        android:id="@+id/middle"
+        android:id="@+id/middle_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="2"
@@ -40,7 +39,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/text"
+            android:id="@+id/clicks_count_main_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/default_margin"
@@ -49,7 +48,7 @@
             android:textSize="38sp" />
 
         <TextView
-            android:id="@+id/textmini"
+            android:id="@+id/clicks_for_clicks_text"
             android:layout_width="match_parent"
             android:layout_height="27dp"
             android:gravity="center"
@@ -57,7 +56,7 @@
             android:textSize="@dimen/default_text_size" />
 
         <ImageButton
-            android:id="@+id/kitka"
+            android:id="@+id/cat_img"
             android:layout_width="460px"
             android:layout_height="536px"
             android:layout_marginLeft="120dp"
@@ -69,15 +68,14 @@
         </ImageButton>
 
     </LinearLayout>
-
     <LinearLayout
-        android:id="@+id/bot"
+        android:id="@+id/bot_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/bot1"
+            android:id="@+id/my_vk_button"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -87,7 +85,7 @@
             android:textSize="@dimen/default_text_size" />
 
         <Button
-            android:id="@+id/bot2"
+            android:id="@+id/my_office_button"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -97,7 +95,7 @@
             android:textSize="@dimen/default_text_size" />
 
         <Button
-            android:id="@+id/bot3"
+            android:id="@+id/my_phone_number_button"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -105,7 +103,5 @@
             android:layout_weight="1"
             android:text="@string/textNumber"
             android:textSize="@dimen/default_text_size" />
-
     </LinearLayout>
-
 </LinearLayout>

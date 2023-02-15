@@ -1,167 +1,167 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="410dp"
-    android:layout_height="732dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/greyplus">
 
     <LinearLayout
-        android:id="@+id/upg1"
+        android:id="@+id/upg1_layout"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="@dimen/default_upg_height"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/but1"
-            android:layout_margin="10dp"
+            android:id="@+id/upg1_button"
+            android:layout_margin="@dimen/default_margin"
             android:text="@string/upg_cost1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/dop1"
+            android:id="@+id/upg1_text"
             android:gravity="center"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/default_margin"
             android:text="@string/upg_count_clicks_for_clicks1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/upg2"
+        android:id="@+id/upg2_layout"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="@dimen/default_upg_height"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/but2"
-            android:layout_margin="10dp"
+            android:id="@+id/upg2_button"
+            android:layout_margin="@dimen/default_margin"
             android:text="@string/upg_cost2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/dop2"
+            android:id="@+id/upg2_text"
             android:gravity="center"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/default_margin"
             android:text="@string/upg_count_clicks_for_click2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/upg3"
+        android:id="@+id/upg3_layout"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="@dimen/default_upg_height"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/but3"
-            android:layout_margin="10dp"
+            android:id="@+id/upg3_button"
+            android:layout_margin="@dimen/default_margin"
             android:text="@string/upg_cost3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/dop3"
+            android:id="@+id/upg3_text"
             android:gravity="center"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/default_margin"
             android:text="@string/upg_count_clicks_for_click3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/upg4"
+        android:id="@+id/upg4_layout"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="@dimen/default_margin"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/but4"
-            android:layout_margin="10dp"
+            android:id="@+id/upg4_button"
+            android:layout_margin="@dimen/default_margin"
             android:text="@string/upg_cost4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/dop4"
+            android:id="@+id/upg4_text"
             android:gravity="center"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/default_margin"
             android:text="@string/upg_count_clicks_for_click4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/upg5"
+        android:id="@+id/upg5_layout"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="@dimen/default_upg_height"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/but5"
-            android:layout_margin="10dp"
+            android:id="@+id/upg5_button"
+            android:layout_margin="@dimen/default_margin"
             android:text="@string/upg_cost5"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/dop5"
+            android:id="@+id/upg5_text"
             android:gravity="center"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/default_margin"
             android:text="@string/upg_count_clicks_for_click5"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/upg6"
+        android:id="@+id/upg6_layout"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="@dimen/default_upg_height"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/but6"
-            android:layout_margin="10dp"
+            android:id="@+id/upg6_button"
+            android:layout_margin="@dimen/default_margin"
             android:text="@string/upg_cost6"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/dop6"
+            android:id="@+id/upg6_text"
             android:gravity="center"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/default_margin"
             android:text="@string/upg_count_clicks_for_click6"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1" />
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/upg7"
+        android:id="@+id/upg7_layout"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="@dimen/default_upg_height"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/but7"
+            android:id="@+id/upg7_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/default_margin"
             android:layout_weight="1"
             android:text="@string/upg_cost7"
             android:textSize="12sp" />
 
         <TextView
-            android:id="@+id/dop7"
+            android:id="@+id/upg7_text"
             android:gravity="center"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/default_margin"
             android:text="@string/upg_count_clicks_for_click7"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -173,19 +173,20 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/zmakup"
+            android:id="@+id/clicks_count_upg_text"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/default_margin"
             android:gravity="center"
             android:textSize="25dp"
             android:layout_weight="1" />
         <Button
-            android:id="@+id/back"
+            android:id="@+id/back_to_main_button"
             android:layout_weight="1"
+            android:layout_margin="40dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/back_button_text"
-            android:textSize="25dp" />
+            android:textSize="@dimen/default_text_size" />
     </LinearLayout>
 </LinearLayout>
