@@ -8,9 +8,6 @@ class MyApp: Application() {
     }
     override fun onCreate() {
         super.onCreate()
-        asf= SharedPreferencesManager(context = this)
-        asf= SharedPreferencesManager(applicationContext)
-
-
+        asf= SharedPreferencesManager(this)
     }
 }

@@ -3,13 +3,10 @@ package com.larix.katyakitka
 import android.app.Activity
 import android.content.Context
 import android.content.SharedPreferences
-import com.larix.katyakitka.MainActivity.Companion.countClicks
 import com.larix.katyakitka.MainActivity.Companion.changeClicksForClick
+import com.larix.katyakitka.MainActivity.Companion.countClicks
 
-
-
-
-class SharedPreferencesManager(context: Context) {
+open class SharedPreferencesManager(context: Context) {
 
     val clicksCount_key: String = "clicksCount"
     val clicksForClick_key: String = "clickForClick"
@@ -23,5 +20,17 @@ class SharedPreferencesManager(context: Context) {
     val clicksSaved: Int = sharPreff.getInt(clicksCount_key, 0)
     val clicksChangeSaved: Int = sharPreff.getInt(clicksForClick_key, 1)
 
+    fun saveClicksCount(){
+        editor.putInt(clicksCount_key, countClicks)
+        editor.apply()
+    }
+    fun saveClicksForClick(){
+        editor.putInt(clicksForClick_key, changeClicksForClick)
+        editor.apply()
+    }
+    fun loadClicks(){
+        countClicks = clicksSaved
+        changeClicksForClick = clicksChangeSaved
+    }
 
 }
