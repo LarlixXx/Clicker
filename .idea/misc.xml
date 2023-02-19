@@ -3,9 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/larix/AndroidStudioProjects/katyakitka/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/Users/larix/AndroidStudioProjects/katyakitka/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/larix/AndroidStudioProjects/katyakitka/app/src/main/res/layout/browser.xml" value="0.176" />
         <entry key="..\:/Users/larix/AndroidStudioProjects/katyakitka/app/src/main/res/layout/upg.xml" value="0.2" />
+        <entry key="..\:/Users/larix/AndroidStudioProjects/katyakitka/app/src/main/res/layout/upg_hire.xml" value="0.253125" />
       </map>
     </option>
   </component>

@@ -2,10 +2,10 @@
 <resources>
     <string name="clicks_on_balance">%s на счету</string>
     <string name="clicks_for_click">%s за жмяк</string>
-    <string name="text_upg">Улучшения</string>
-    <string name="text_achiv">Достижения</string>
-    <string name="textNumber">наш телефон</string>
-    <string name="textLocation">Наш офис</string>
+    <string name="text_upg">Улучшить лапку</string>
+    <string name="text_achiv">Нанять котика</string>
+    <string name="textNumber">Мой телефон</string>
+    <string name="textLocation">Мой офис</string>
     <string name="textVkLink">Мой вк</string>
     <string name="upg_cost1">ЖМЯКС(25)</string>
     <string name="upg_cost2">супер жмяк(100)</string>

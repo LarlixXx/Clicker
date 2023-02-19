@@ -1,7 +1,10 @@
 package com.larix.katyakitka
 
+import android.annotation.SuppressLint
 import android.app.Activity
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
@@ -16,8 +19,14 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
         var countClicks = 0
-        var ckicksChange = 1
+        var changeClicksForClick = 1
+
     }
+
+    private val clicksCount_key: String = "clicksCount"
+    private val clicksForClick_key: String = "clickForClick"
+    private val myClicks_key: String = "myClicks"
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,23 +38,25 @@ class MainActivity : AppCompatActivity() {
 
         val imgCat = findViewById<ImageButton>(R.id.cat_img)
         textCountClicks = findViewById(R.id.clicks_count_main_text)
-        val toUpgradeButton = findViewById<Button>(R.id.button_upgrade)
+        val toUpgradeButton = findViewById<Button>(R.id.button_click_upg)
         textClicksForClick = findViewById(R.id.clicks_for_clicks_text)
 
-        val sharPref = getSharedPreferences("mynum", Activity.MODE_PRIVATE)
-        val editor = sharPref.edit()
-        val clicksSaved: Int = sharPref.getInt("kol_vo", 0)
-        val clicksChangeSaved: Int = sharPref.getInt("za_raz", 1)
-        countClicks = clicksSaved
-        ckicksChange = clicksChangeSaved
 
+        val sharPref: SharedPreferences = getSharedPreferences(myClicks_key, Activity.MODE_PRIVATE)
+        val editor = sharPref.edit()
+
+        val clicksSaved: Int = sharPref.getInt(clicksCount_key, 0)
+        val clicksChangeSaved: Int = sharPref.getInt(clicksForClick_key, 1)
+
+        countClicks = clicksSaved
+        changeClicksForClick = clicksChangeSaved
         imgCat.setOnClickListener {
-            countClicks += ckicksChange
+            countClicks += changeClicksForClick
             textCountClicks.text = Upgrades.countClicksOnBalance(resources)
             textClicksForClick.text = Upgrades.countClicksForClicks(resources)
 
-            editor.putInt("clicksCountSaved", countClicks)
-            editor.putInt("clicksForClickSaved", ckicksChange)
+            editor.putInt(clicksCount_key, countClicks)
+            editor.putInt(clicksForClick_key, changeClicksForClick)
             editor.apply()
         }
         toUpgradeButton.setOnClickListener {
@@ -79,10 +90,10 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
-
     override fun onResume() {
         super.onResume()
         textCountClicks.text = Upgrades.countClicksOnBalance(resources)
         textClicksForClick.text = Upgrades.countClicksForClicks(resources)
     }
+
 }

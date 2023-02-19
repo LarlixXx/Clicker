@@ -2,176 +2,176 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/greyplus"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/greyplus">
 
     <LinearLayout
-        android:id="@+id/upg1_layout"
+        android:id="@+id/upg_cat1_layout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/default_upg_height"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/upg1_button"
+            android:id="@+id/upg_cat1_button"
+            android:layout_margin="@dimen/default_margin"
+            android:text="Кот работяга"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="@dimen/default_margin"
-            android:layout_weight="1"
-            android:text="@string/upg_cost1" />
+            android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/upg1_text"
+            android:id="@+id/upg_cat1_text"
+            android:gravity="center"
+            android:layout_margin="@dimen/default_margin"
+            android:text="+0,25 жмяков в секунду"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="@dimen/default_margin"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/upg_count_clicks_for_clicks1" />
+            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/upg2_layout"
+        android:id="@+id/upg_cat2_layout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/default_upg_height"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/upg2_button"
+            android:id="@+id/upg_cat2_button"
+            android:layout_margin="@dimen/default_margin"
+            android:text="трудящийся кот"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="@dimen/default_margin"
-            android:layout_weight="1"
-            android:text="@string/upg_cost2" />
+            android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/upg2_text"
+            android:id="@+id/upg_cat2_text"
+            android:gravity="center"
+            android:layout_margin="@dimen/default_margin"
+            android:text="+1 жмяк в секунду"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="@dimen/default_margin"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/upg_count_clicks_for_click2" />
+            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/upg3_layout"
+        android:id="@+id/upg_cat3_layout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/default_upg_height"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/upg3_button"
+            android:id="@+id/upg_cat3_button"
+            android:layout_margin="@dimen/default_margin"
+            android:text="кот силач"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="@dimen/default_margin"
-            android:layout_weight="1"
-            android:text="@string/upg_cost3" />
+            android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/upg3_text"
+            android:id="@+id/upg_cat3_text"
+            android:gravity="center"
+            android:layout_margin="@dimen/default_margin"
+            android:text="+3 жмяка в секунду"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="@dimen/default_margin"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/upg_count_clicks_for_click3" />
+            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/upg4_layout"
+        android:id="@+id/upg_cat4_layout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/default_upg_height"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/upg4_button"
+            android:id="@+id/upg_cat4_button"
+            android:layout_margin="@dimen/default_margin"
+            android:text="кот на кошачей мяте"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="@dimen/default_margin"
-            android:layout_weight="1"
-            android:text="@string/upg_cost4" />
+            android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/upg4_text"
+            android:id="@+id/upg_cat4_text"
+            android:gravity="center"
+            android:layout_margin="@dimen/default_margin"
+            android:text="+10 жмяков в секунду"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="@dimen/default_margin"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/upg_count_clicks_for_click4" />
+            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/upg5_layout"
+        android:id="@+id/upg_cat5_layout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/default_upg_height"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/upg5_button"
+            android:id="@+id/upg_cat5_button"
+            android:layout_margin="@dimen/default_margin"
+            android:text="кот-инопришелец"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="@dimen/default_margin"
-            android:layout_weight="1"
-            android:text="@string/upg_cost5" />
+            android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/upg5_text"
+            android:id="@+id/upg_cat5_text"
+            android:gravity="center"
+            android:layout_margin="@dimen/default_margin"
+            android:text="+30 жмяков в секунду"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="@dimen/default_margin"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/upg_count_clicks_for_click5" />
+            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/upg6_layout"
+        android:id="@+id/upg_cat6_layout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/default_upg_height"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/upg6_button"
+            android:id="@+id/upg_cat6_button"
+            android:layout_margin="@dimen/default_margin"
+            android:text="ангельский кот"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="@dimen/default_margin"
-            android:layout_weight="1"
-            android:text="@string/upg_cost6" />
+            android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/upg6_text"
+            android:id="@+id/upg_cat6_text"
+            android:gravity="center"
+            android:layout_margin="@dimen/default_margin"
+            android:text="+75 жмяков в секунду"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="@dimen/default_margin"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/upg_count_clicks_for_click6" />
+            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/upg7_layout"
+        android:id="@+id/upg_cat7_layout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/default_upg_height"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/upg7_button"
+            android:id="@+id/upg_cat7_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="@dimen/default_margin"
             android:layout_weight="1"
-            android:text="@string/upg_cost7"
+            android:text="бог котов"
             android:textSize="12sp" />
 
         <TextView
-            android:id="@+id/upg7_text"
+            android:id="@+id/upg_cat7_text"
+            android:gravity="center"
+            android:layout_margin="@dimen/default_margin"
+            android:text="+300 жмяков в секунду"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="@dimen/default_margin"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/upg_count_clicks_for_click7" />
+            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
@@ -184,16 +184,16 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="@dimen/default_margin"
-            android:layout_weight="1"
             android:gravity="center"
-            android:textSize="25dp" />
+            android:textSize="25dp"
+            android:layout_weight="1" />
 
         <Button
             android:id="@+id/back_to_main_button"
+            android:layout_weight="1"
+            android:layout_margin="30dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="30dp"
-            android:layout_weight="1"
             android:text="@string/back_button_text"
             android:textSize="@dimen/default_text_size" />
     </LinearLayout>

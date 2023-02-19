@@ -5,6 +5,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <application
+        android:name=".MyApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -31,10 +32,20 @@
             <intent-filter>
                 <action android:name="android.intent.action.UPGRADES" />
 
-                    <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HireUpgrades"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.HireUpgrades" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
     </application>
+
 
 </manifest>
