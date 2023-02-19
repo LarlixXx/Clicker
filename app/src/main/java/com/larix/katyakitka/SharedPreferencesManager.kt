@@ -12,25 +12,20 @@ open class SharedPreferencesManager(context: Context) {
     val clicksForClick_key: String = "clickForClick"
     val myClicks_key: String = "myClicks"
 
-    var sharPreff: SharedPreferences = context.getSharedPreferences(myClicks_key, Activity.MODE_PRIVATE)
-
-
+    val sharPreff: SharedPreferences = context.getSharedPreferences(myClicks_key, 0)
     val editor = sharPreff.edit()
+
 
     val clicksSaved: Int = sharPreff.getInt(clicksCount_key, 0)
     val clicksChangeSaved: Int = sharPreff.getInt(clicksForClick_key, 1)
 
-    fun saveClicksCount(){
-        editor.putInt(clicksCount_key, countClicks)
+    fun saveClicksCount(key:String,value:Int){
+        editor.putInt(key, value)
         editor.apply()
     }
-    fun saveClicksForClick(){
-        editor.putInt(clicksForClick_key, changeClicksForClick)
+    fun saveClicksForClick(key:String,value: Int){
+        editor.putInt(key, value)
         editor.apply()
-    }
-    fun loadClicks(){
-        countClicks = clicksSaved
-        changeClicksForClick = clicksChangeSaved
     }
 
 }

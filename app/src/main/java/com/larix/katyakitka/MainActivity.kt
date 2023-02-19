@@ -1,30 +1,22 @@
 package com.larix.katyakitka
 
-import android.app.Activity
 import android.content.Intent
-import android.content.SharedPreferences
 import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.larix.katyakitka.SharedPreferencesManager
 
 class MainActivity : AppCompatActivity() {
     lateinit var textCountClicks: TextView
     lateinit var textClicksForClick: TextView
-
+    lateinit var manager:SharedPreferencesManager
     companion object {
         var countClicks = 0
         var changeClicksForClick = 1
 
     }
-
-    private val clicksCount_key: String = "clicksCount"
-    private val clicksForClick_key: String = "clickForClick"
-    private val myClicks_key: String = "myClicks"
-
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
