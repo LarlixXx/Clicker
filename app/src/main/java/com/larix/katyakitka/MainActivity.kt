@@ -7,15 +7,18 @@ import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.larix.katyakitka.SharedPreferencesManager.*
 
-class MainActivity : AppCompatActivity() {
+
+
+
+open class MainActivity : AppCompatActivity() {
     lateinit var textCountClicks: TextView
     lateinit var textClicksForClick: TextView
-    lateinit var manager:SharedPreferencesManager
+    lateinit var manager: SharedPreferencesManager
     companion object {
         var countClicks = 0
         var changeClicksForClick = 1
-
     }
 
 
@@ -23,9 +26,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         initGeo()
         initPhone()
         initLink()
+
 
         val imgCat = findViewById<ImageButton>(R.id.cat_img)
         textCountClicks = findViewById(R.id.clicks_count_main_text)
@@ -33,13 +38,13 @@ class MainActivity : AppCompatActivity() {
         textClicksForClick = findViewById(R.id.clicks_for_clicks_text)
 
 
-
         imgCat.setOnClickListener {
             countClicks += changeClicksForClick
+
             textCountClicks.text = Upgrades.countClicksOnBalance(resources)
             textClicksForClick.text = Upgrades.countClicksForClicks(resources)
 
-
+            saveClicksCount(clicksCount_key, changeClicksForClick)
 
         }
         toUpgradeButton.setOnClickListener {
@@ -73,10 +78,16 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
+
     override fun onResume() {
         super.onResume()
         textCountClicks.text = Upgrades.countClicksOnBalance(resources)
         textClicksForClick.text = Upgrades.countClicksForClicks(resources)
+    }
+
+    override fun onPause() {
+        super.onPause()
+
     }
 
 }
